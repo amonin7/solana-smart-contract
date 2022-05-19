@@ -26,3 +26,9 @@
 
 8. **And finally, you're good to deploy :)! Go ahead and run:**\
 `anchor deploy`
+
+**Note:** Solve the issue of the account not persisting
+```shell
+cd frontend/src/
+node createKeyPair.js
+```
